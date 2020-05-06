@@ -1,0 +1,128 @@
+body {background-color: tan;}
+
+
+div { padding: 0px;
+
+
+}
+
+/*
+a { font-family: "LemonMilk", Serif;
+    padding-left: 8px;
+    padding-right: 8px;
+    color: white;
+    text-decoration: none;
+        } 
+*/
+
+.navbar { font-family: "LemonMilk", Serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+            font-size: 2em;
+         justify-content: flex-start;
+         align-content: space-around;
+}
+
+.navbar a {
+      padding-left: 8px;
+    padding-right: 8px;
+    
+}
+ul {padding: 0px;
+    margin: 0px;
+    }
+
+a:active {color: white;
+            text-decoration: none;
+          
+    
+}
+
+
+.jumbotron-fluid {background-image: none;}
+
+
+
+.jumbotron-fluid a { 
+    font-family: "LemonMilk", Serif;
+    color: white;
+    text-decoration: none;
+}
+
+
+.jumbotron-fluid a:hover {
+    color: lightblue;
+}
+
+.nav-item { 
+    margin: 0px 5px
+}
+
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lightblue;
+    text-decoration: none;
+}
+
+#carousel-example-1z {
+    display:flex;
+            align-content: center;
+          align-items: center;
+            width: 50%;
+            max-height: 50%;}
+.bad-days {
+    width: 100%;
+}
+
+.centered {display: flex;
+        justify-content: center;}
+
+
+
+.cover {position: fixed;
+  top: 45%;
+  left: 50%;
+    font-size: 3em;
+  transform: translate(-50%, -50%);
+      font-family: "LemonMilk", serif;
+    color: white;}
+
+
+.easter-egg1 {
+    font-size: 30px !important;
+}
+
+.underline {
+    text-decoration: underline;
+}
+h1 {display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 0px;
+    font-family: "LemonMilk", serif;
+    color: white;
+    justify-content: center;
+}
+
+p { display: flex;
+    padding: 15px 30px 15px 30px ;
+    margin: 15px 30px 15px 30px;
+    justify-content: center;
+    font-family: "gill sans", serif;
+}
+#text {
+   margin: 15px 30px 15px 30px;
+       text-align: center;
+}
+
+a.extra {
+    color: brown;
+}
+
+a.extra:hover {color: lightblue;}
